@@ -1,0 +1,31 @@
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE filmware [
+<!ENTITY director "Directed by: Lucas Van Woerkum">
+<!ENTITY writer "F Writer: Federico Bonelli">
+<!ENTITY copyright "Copyright: Symphonic Cinema.">
+]>
+
+<filmware>
+<filmwareName>NAME YOUR FILMWARE HERE</filmwareName>
+<filmwareLocation>ABSOLUTE PATH TO YOUR FILES</filmwareLocation>
+<numberofatoms>NUMBER OF ATOMS</numberofatoms>
+<atomizer>
+
+	<atom>
+	<number> 0 </number>
+   		<clip>  *.mov </clip>
+		<file> *.mov </file> 
+       	<duration>..//*.mov: could not find ..//*.mov. </duration>
+       	<marker>
+   			<MarkName>MARKER NAME HERE</MarkName>
+        	<MarkTime>MARKER TIME HERE</MarkTime>
+    	</marker>
+		<next> 
+			<transition>_cut</transition>
+		</next>
+		<notes>YOUR ANNOTATIONS HERE</notes>
+	</atom>
+</atomizer>
+</filmware>
+DOUBLE CHECK AND REPLACE ON TOP: 1
